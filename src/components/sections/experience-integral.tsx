@@ -1,15 +1,5 @@
 import React from 'react';
-import { 
-  Stethoscope, 
-  MapPin, 
-  Target, 
-  Heart, 
-  Users, 
-  CheckCircle2, 
-  ShieldCheck,
-  Award,
-  GraduationCap
-} from 'lucide-react';
+import { Stethoscope, MapPin, Target, Heart, Users, CircleCheck as CheckCircle2, ShieldCheck, Award, GraduationCap } from 'lucide-react';
 
 const ExperienceIntegral = () => {
   return (
