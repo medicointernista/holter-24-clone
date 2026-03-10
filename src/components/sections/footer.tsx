@@ -18,7 +18,7 @@ const Footer = () => {
           
           {/* Column 1: Bio */}
           <div className="bg-white p-8 rounded-[1.5rem] border border-[#E2E8F0] shadow-sm">
-            <h3 className="text-[1.125rem] font-bold text-[#0F172A] mb-4">Dr. Willmer Obregón</h3>
+            <h2 className="text-[1.125rem] font-bold text-[#0F172A] mb-4">Dr. Willmer Obregón</h2>
             <p className="text-[0.875rem] leading-[1.6] text-[#64748B] mb-6">
               Especialista en Medicina Interna en Medellín, con enfoque personalizado y comprensivo hacia el cuidado de la salud. Acompañamiento en condiciones cardiovasculares y metabólicas con tratamiento basado en evidencia.
             </p>
@@ -40,7 +40,7 @@ const Footer = () => {
 
           {/* Column 2: Contact Info */}
           <div className="bg-white p-8 rounded-[1.5rem] border border-[#E2E8F0] shadow-sm">
-            <h3 className="text-[1.125rem] font-bold text-[#0F172A] mb-6">Información de contacto</h3>
+            <h2 className="text-[1.125rem] font-bold text-[#0F172A] mb-6">Información de contacto</h2>
             <ul className="space-y-4">
               <li className="flex gap-4">
                 <MapPin className="w-5 h-5 text-[#1080A0] shrink-0 mt-1" />
@@ -65,7 +65,7 @@ const Footer = () => {
 
           {/* Column 3: Hours & Emails */}
           <div className="bg-white p-8 rounded-[1.5rem] border border-[#E2E8F0] shadow-sm">
-            <h3 className="text-[1.125rem] font-bold text-[#0F172A] mb-6">Correo y horarios</h3>
+            <h2 className="text-[1.125rem] font-bold text-[#0F172A] mb-6">Correo y horarios</h2>
             <ul className="space-y-4">
               <li className="flex gap-4 items-center">
                 <Mail className="w-5 h-5 text-[#1080A0] shrink-0" />
@@ -101,10 +101,13 @@ const Footer = () => {
           </div>
           
             <div className="flex items-center">
-              <img 
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/97a64b44-91da-4112-9daf-4ae102c188a2/Wilmer-Obregon-Logo-1769391260059.png?width=8000&height=8000&resize=contain" 
-                alt="Logo Dr. Willmer Obregón" 
+              <img
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/97a64b44-91da-4112-9daf-4ae102c188a2/Wilmer-Obregon-Logo-1769391260059.png?width=8000&height=8000&resize=contain"
+                alt="Dr. Willmer Obregón - Médico Internista Medellín - Holter 24 horas"
                 className="h-12 w-auto"
+                width="200"
+                height="48"
+                loading="lazy"
               />
             </div>
 

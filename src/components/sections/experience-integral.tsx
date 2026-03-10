@@ -34,9 +34,9 @@ const ExperienceIntegral = () => {
               </p>
 
               <div className="space-y-6">
-                <h3 className="text-[1.125rem] font-bold text-[#1E293B]">
+                <h4 className="text-[1.125rem] font-bold text-[#1E293B]">
                   Experto en el manejo de:
-                </h3>
+                </h4>
                 
                 <ul className="flex flex-wrap gap-3">
                   {[
@@ -84,9 +84,9 @@ const ExperienceIntegral = () => {
 
           {/* Right Column: Integral Care Philosophy */}
           <div className="flex flex-col">
-            <h2 className="text-[1.875rem] md:text-[2.25rem] font-semibold tracking-tight text-[#0F172A] leading-[1.2] mb-6">
+            <h3 className="text-[1.875rem] md:text-[2.25rem] font-semibold tracking-tight text-[#0F172A] leading-[1.2] mb-6">
               Atención Médica Integral en Medellín
-            </h2>
+            </h3>
             
             <p className="text-[1rem] md:text-[1.125rem] leading-[1.6] text-[#64748B] mb-12">
               El Dr. Willmer Obregón ofrece un enfoque que combina el rigor científico con una atención profundamente humana. Buscamos entender el origen de tus síntomas para brindarte tranquilidad y salud mediante <strong>estudios cardiovasculares</strong> precisos.

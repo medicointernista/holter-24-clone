@@ -25,10 +25,12 @@ const Header = () => {
               aria-label="Ir al inicio" 
               href="/"
             >
-                  <img 
-                    src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/97a64b44-91da-4112-9daf-4ae102c188a2/Wilmer-Obregon-Logo-1769391260059.png?width=8000&height=8000&resize=contain" 
-                    alt="Logo del Dr. Willmer Obregón" 
+                  <img
+                    src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/97a64b44-91da-4112-9daf-4ae102c188a2/Wilmer-Obregon-Logo-1769391260059.png?width=8000&height=8000&resize=contain"
+                    alt="Dr. Willmer Obregón - Médico Internista en Medellín"
                     className="h-12 md:h-14 w-auto object-contain"
+                    width="200"
+                    height="56"
                   />
             </a>
 
