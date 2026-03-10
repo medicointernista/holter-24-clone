@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Facebook, Instagram, Youtube, MapPin, Phone, Mail, Clock, ArrowUp } from 'lucide-react';
+import { FaTiktok } from 'react-icons/fa';
 
 const Footer = () => {
   const scrollToTop = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -27,6 +28,9 @@ const Footer = () => {
               </a>
               <a href="https://www.instagram.com/tu_internista_favorito/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full border border-[#E2E8F0] text-[#64748B] hover:text-[#1080A0] hover:border-[#1080A0] transition-colors">
                 <Instagram size={18} />
+              </a>
+              <a href="https://www.tiktok.com/@tuinternistafavorito" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full border border-[#E2E8F0] text-[#64748B] hover:text-[#1080A0] hover:border-[#1080A0] transition-colors">
+                <FaTiktok size={18} />
               </a>
               <a href="https://www.youtube.com/@tuinternistafavorito" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full border border-[#E2E8F0] text-[#64748B] hover:text-[#1080A0] hover:border-[#1080A0] transition-colors">
                 <Youtube size={18} />
@@ -65,18 +69,25 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex gap-4 items-center">
                 <Mail className="w-5 h-5 text-[#1080A0] shrink-0" />
-                <a href="mailto:tuinternistaresponde@gmail.com" className="text-[0.875rem] text-[#64748B] hover:text-[#1080A0]">tuinternistaresponde@gmail.com</a>
+                <a href="mailto:consulta@internistamedellin.com" className="text-[0.875rem] text-[#64748B] hover:text-[#1080A0]">consulta@internistamedellin.com</a>
               </li>
               <li className="flex gap-4 items-center">
                 <Mail className="w-5 h-5 text-[#1080A0] shrink-0" />
-                <a href="mailto:tuinternistafavorito@gmail.com" className="text-[0.875rem] text-[#64748B] hover:text-[#1080A0]">tuinternistafavorito@gmail.com</a>
+                <a href="mailto:asistente@internistamedellin.com" className="text-[0.875rem] text-[#64748B] hover:text-[#1080A0]">asistente@internistamedellin.com</a>
+              </li>
+              <li className="flex gap-4 items-center">
+                <Mail className="w-5 h-5 text-[#1080A0] shrink-0" />
+                <a href="mailto:estudios@internistamedellin.com" className="text-[0.875rem] text-[#64748B] hover:text-[#1080A0]">estudios@internistamedellin.com</a>
+              </li>
+              <li className="flex gap-4 items-center">
+                <Mail className="w-5 h-5 text-[#1080A0] shrink-0" />
+                <a href="mailto:procedimientos@internistamedellin.com" className="text-[0.875rem] text-[#64748B] hover:text-[#1080A0]">procedimientos@internistamedellin.com</a>
               </li>
               <li className="flex gap-4 pt-2">
                 <Clock className="w-5 h-5 text-[#1080A0] shrink-0" />
                 <div>
                   <p className="text-[0.75rem] font-bold text-[#0F172A] uppercase tracking-wider mb-1">Horario de atención</p>
-                  <p className="text-[0.875rem] text-[#64748B]">Lunes a viernes: 7:00 am - 12:00 pm</p>
-                  <p className="text-[0.875rem] text-[#64748B]">Lunes a viernes: 1:30 pm - 5:00 pm</p>
+                  <p className="text-[0.875rem] text-[#64748B]">Lunes a viernes: 8am a 5pm</p>
                 </div>
               </li>
             </ul>
