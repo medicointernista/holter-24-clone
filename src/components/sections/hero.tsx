@@ -26,7 +26,7 @@ const HeroSection = () => {
 
             {/* Título Principal / H1 */}
             <h1 className="mt-6 text-balance text-4xl font-semibold tracking-tight text-[#0F172A] md:text-5xl lg:text-[3.75rem] leading-[1.1] animate-in fade-in slide-in-from-bottom-5 duration-1000">
-              Monitoreo Holter de 24 Horas: Detecta Arritmias a Tiempo y Sin Esperas
+              <span className="text-[#1080A0]">Monitoreo Holter de 24 Horas:</span> Detecta Arritmias a Tiempo y Sin Esperas
             </h1>
 
             {/* Subtítulo / Subheadline */}

@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     description: "Detecta arritmias a tiempo sin esperas. Dispositivo ultra-liviano, informe clínico directo.",
   },
   icons: {
-    icon: "/Favicon_willmer_obregon.png",
-    shortcut: "/Favicon_willmer_obregon.png",
-    apple: "/Favicon_willmer_obregon.png",
+    icon: "/Favicon_willmer_obregon copy.png",
+    shortcut: "/Favicon_willmer_obregon copy.png",
+    apple: "/Favicon_willmer_obregon copy.png",
   },
   verification: {
     google: "google-site-verification-code",
