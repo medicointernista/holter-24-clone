@@ -83,7 +83,7 @@ const HeroSection = () => {
               <div className="relative h-[400px] w-full md:h-[550px]">
                 {/* Image Placeholder using high priority asset */}
                 <Image
-                  src="/Holter-24-horas.jpg"
+                  src="/Monitoreo-Holter-de-24-Horas.jpg"
                   alt="Dr. Willmer Obregón realizando estudio de Holter 24 horas a paciente en Medellín, Colombia"
                   fill
                   className="object-cover"
