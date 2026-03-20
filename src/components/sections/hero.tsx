@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { Calendar, PhoneCall, Sparkles } from 'lucide-react';
+import { Calendar, PhoneCall, Sparkles, CircleCheck as CheckCircle2 } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -16,24 +16,45 @@ const HeroSection = () => {
           
           {/* Left Content Column */}
           <div className="relative z-10 flex flex-col items-start">
-            {/* Status Badge */}
+            {/* Pre-encabezado / Eyebrow Text */}
             <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/70 px-4 py-2 text-sm font-medium text-[#1E293B] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.05)] backdrop-blur-md animate-in fade-in slide-in-from-bottom-3 duration-700">
               <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-[#E1F1F6] text-[#1080A0]">
                 <Sparkles size={16} />
               </span>
-              Atención personalizada y empática en Medellín
+              Médico Internista Experto en Medellín | Citas disponibles en 24-48 horas
             </div>
 
-            {/* Headline */}
+            {/* Título Principal / H1 */}
             <h1 className="mt-6 text-balance text-4xl font-semibold tracking-tight text-[#0F172A] md:text-5xl lg:text-[3.75rem] leading-[1.1] animate-in fade-in slide-in-from-bottom-5 duration-1000">
-              Médico Internista en <span className="text-[#1080A0]">Medellín</span> - Dr. Willmer Obregón
+              Monitoreo Holter de 24 Horas: Detecta Arritmias a Tiempo y Sin Esperas
             </h1>
 
-            {/* Subtext */}
+            {/* Subtítulo / Subheadline */}
             <p className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-[#64748B] md:text-lg animate-in fade-in slide-in-from-bottom-7 duration-1000 delay-100">
-              Realizamos <strong>Estudios Cardiovasculares en Medellín por Monitoreo Holter 24 horas</strong>. 
-              Detecta arritmias que un electrocardiograma normal no capta con un procedimiento cómodo, no invasivo y de alta precisión.
+              Obtén un diagnóstico cardiovascular preciso y seguro con un dispositivo no invasivo. El Dr. Willmer Obregón te entregará un informe personalizado para que entiendas exactamente qué le ocurre a tu corazón.
             </p>
+
+            {/* Checkmarks / Benefits List */}
+            <ul className="mt-6 space-y-3 animate-in fade-in slide-in-from-bottom-7 duration-1000 delay-150">
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="h-5 w-5 text-[#1080A0] mt-0.5 flex-shrink-0" />
+                <span className="text-[15px] text-[#64748B]">
+                  <strong className="text-[#1E293B]">Dispositivo ultra-liviano:</strong> Continúa con tu vida normal sin molestias.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="h-5 w-5 text-[#1080A0] mt-0.5 flex-shrink-0" />
+                <span className="text-[15px] text-[#64748B]">
+                  <strong className="text-[#1E293B]">Informe clínico directo:</strong> Análisis experto del médico, no de un software automático.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="h-5 w-5 text-[#1080A0] mt-0.5 flex-shrink-0" />
+                <span className="text-[15px] text-[#64748B]">
+                  <strong className="text-[#1E293B]">Sin largas filas:</strong> Agenda hoy y realiza tu examen entre 1 y 2 días hábiles.
+                </span>
+              </li>
+            </ul>
 
             {/* Availability Alert */}
             <div className="mt-6 flex items-center gap-3 rounded-xl bg-amber-50 border border-amber-200 px-5 py-3 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-150">

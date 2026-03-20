@@ -5,14 +5,14 @@ import ErrorReporter from "@/components/ErrorReporter";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Dr. Willmer Obregón - Médico Internista en Medellín | Holter 24h",
-  description: "Médico Internista especializado en estudios cardiovasculares en Medellín. Holter 24 horas, electrocardiograma, MAPA. Citas disponibles en 1-2 días. Atención personalizada y profesional.",
+  title: "Monitoreo Holter 24 Horas Medellín | Dr. Willmer Obregón - Detecta Arritmias",
+  description: "Monitoreo Holter de 24 horas en Medellín sin esperas. Dispositivo ultra-liviano, informe clínico directo del médico. Citas disponibles en 24-48 horas. Dr. Willmer Obregón - Médico Internista Experto.",
   keywords: "médico internista Medellín, holter 24 horas Medellín, estudios cardiovasculares Medellín, cardiólogo Medellín, electrocardiograma Medellín, MAPA presión arterial, Dr Willmer Obregón",
   robots: "index, follow",
   authors: [{ name: "Dr. Willmer Obregón" }],
   openGraph: {
-    title: "Dr. Willmer Obregón - Médico Internista en Medellín",
-    description: "Especialista en Medicina Interna y estudios cardiovasculares. Holter 24 horas, electrocardiograma y MAPA en Medellín.",
+    title: "Monitoreo Holter 24 Horas Medellín | Dr. Willmer Obregón",
+    description: "Detecta arritmias a tiempo sin esperas. Dispositivo ultra-liviano, informe clínico directo. Citas en 24-48 horas.",
     url: "https://internistamedellin.com",
     siteName: "Dr. Willmer Obregón - Médico Internista",
     locale: "es_CO",
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dr. Willmer Obregón - Médico Internista Medellín",
-    description: "Especialista en estudios cardiovasculares. Holter 24h, electrocardiograma y MAPA.",
+    title: "Monitoreo Holter 24 Horas Medellín | Dr. Willmer Obregón",
+    description: "Detecta arritmias a tiempo sin esperas. Dispositivo ultra-liviano, informe clínico directo.",
   },
   icons: {
     icon: "/Favicon_willmer_obregon.png",
