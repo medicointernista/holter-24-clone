@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { Calendar, PhoneCall, Sparkles, CircleCheck as CheckCircle2 } from 'lucide-react';
+import { PhoneCall, Sparkles, CircleCheck as CheckCircle2 } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -56,14 +56,6 @@ const HeroSection = () => {
               </li>
             </ul>
 
-            {/* Availability Alert */}
-            <div className="mt-6 flex items-center gap-3 rounded-xl bg-amber-50 border border-amber-200 px-5 py-3 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-150">
-              <Calendar className="h-5 w-5 text-amber-600" />
-              <p className="text-[14px] font-bold text-amber-800">
-                ¡Quedan solo 3 citas disponibles esta semana para Holter 24 horas!
-              </p>
-            </div>
-
             {/* CTAs */}
             <div className="mt-8 flex flex-col gap-4 sm:flex-row w-full sm:w-auto animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200">
               <a
@@ -80,22 +72,6 @@ const HeroSection = () => {
                 Llamar ahora
               </a>
             </div>
-
-            {/* Stats Grids */}
-            <dl className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 w-full max-w-2xl animate-in fade-in slide-in-from-bottom-9 duration-1000 delay-300">
-              <div className="rounded-2xl border border-white bg-white/80 p-5 shadow-[0_10px_15px_-3px_rgba(0,0,0,0.05)] backdrop-blur-sm">
-                <dt className="text-[10px] font-medium uppercase tracking-[0.1em] text-[#64748B]">Citas en</dt>
-                <dd className="mt-1 text-[13px] font-semibold text-[#1E293B]">1–2 días</dd>
-              </div>
-              <div className="rounded-2xl border border-white bg-white/80 p-5 shadow-[0_10px_15px_-3px_rgba(0,0,0,0.05)] backdrop-blur-sm">
-                <dt className="text-[10px] font-medium uppercase tracking-[0.1em] text-[#64748B]">Informe</dt>
-                <dd className="mt-1 text-[13px] font-semibold text-[#1E293B]">Personalizado</dd>
-              </div>
-              <div className="col-span-2 sm:col-span-1 rounded-2xl border border-white bg-white/80 p-5 shadow-[0_10px_15px_-3px_rgba(0,0,0,0.05)] backdrop-blur-sm">
-                <dt className="text-[10px] font-medium uppercase tracking-[0.1em] text-[#64748B]">Experiencia</dt>
-                <dd className="mt-1 text-[13px] font-semibold text-[#1E293B]">+15 años</dd>
-              </div>
-            </dl>
           </div>
 
           {/* Right Image Column */}
