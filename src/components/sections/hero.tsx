@@ -83,8 +83,8 @@ const HeroSection = () => {
               <div className="relative h-[400px] w-full md:h-[550px]">
                 {/* Image Placeholder using high priority asset */}
                 <Image
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/97a64b44-91da-4112-9daf-4ae102c188a2-holter-24-vercel-app/assets/images/images_2.png"
-                  alt="Dr. Willmer Obregón - Médico internista especializado en estudios cardiovasculares Holter 24 horas en Medellín, Colombia"
+                  src="/Holter-24-horas.jpg"
+                  alt="Dr. Willmer Obregón realizando estudio de Holter 24 horas a paciente en Medellín, Colombia"
                   fill
                   className="object-cover"
                   priority
